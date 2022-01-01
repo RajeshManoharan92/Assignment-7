@@ -52,15 +52,12 @@
                     <div style="padding-left: 5%; display: inline;">
                         <input type="text" name="PAN" id="PanNo">
                     </div>
-
-
                 </td>
             </tr>
             <tr>
                 <td> <input type="checkbox"></td>
                 <td colspan="3">
                     <span class="star">*</span>1.Name
-
                 </td>
             </tr>
             <tr>
@@ -75,8 +72,6 @@
                     <input type="radio" name="Title" id="Kumari">
                     <label for="M/s" style="padding-left: 3%; font-weight: lighter; color: gray;">M/s</label>
                     <input type="radio" name="Title" id="M/s">
-
-
                 </td>
             </tr>
             <tr>
@@ -95,8 +90,6 @@
                         <span style="display: block;"> Middle Name </span>
                         <input type="text" name="Title" id="Middle Name">
                     </div>
-
-
                 </td>
             </tr>
             <tr>
@@ -141,7 +134,6 @@
                     <span class="star">*</span>Father's Name
                     <span style="color: blue;">(Mandatory field, Even married women should give father's name
                         only.)</span>
-
                 </td>
             </tr>
             <tr>
@@ -160,8 +152,6 @@
                         <span style="display: block;"> Middle Name </span>
                         <input type="text" name="Title" id="Middle Name">
                     </div>
-
-
                 </td>
             </tr>
             <tr>
@@ -169,7 +159,6 @@
                 <td colspan="3">
                     <span class="star">*</span>
                     <span style="color: blue;">Mother's Name (This field is optional.)</span>
-
                 </td>
             </tr>
             <tr>
@@ -188,8 +177,6 @@
                         <span style="display: block;"> Middle Name </span>
                         <input type="text" name="Title" id="Middle Name">
                     </div>
-
-
                 </td>
             </tr>
             <tr>
@@ -204,7 +191,6 @@
                     <input type="radio" name="citizen" id="yes">
                     <label for="no" style="padding-left: 3%;"></label>Mother Name
                     <input type="radio" name="citizen" id="no">
-
                 </td>
             </tr>
             <tr>
@@ -235,8 +221,6 @@
                 <td><input type="checkbox"> </td>
                 <td style="width: 50%;">
                     <span class="star">*</span> 6.Gender
-
-
                 </td>
                 <td colspan="2">
                     <label for="yes"></label>Male
@@ -245,7 +229,6 @@
                     <input type="radio" name="citizen" id="no">
                     <label for="Tg" style="padding-left: 3%;"></label>TransGender
                     <input type="radio" name="citizen" id="Tg">
-
                 </td>
             </tr>
             <tr>
@@ -265,14 +248,12 @@
                 <td style="width: 50%;">
                     <span class="star">*</span>
                     <span>9. Address for Communication</span> <br>
-
                 </td>
                 <td colspan="2">
                     <label for="yes"></label>Residential
                     <input type="radio" name="citizen" id="yes">
                     <label for="no" style="padding-left: 3%;"></label>Office
                     <input type="radio" name="citizen" id="no">
-
                 </td>
             </tr>
             <tr>
@@ -398,7 +379,6 @@
                 </td>
             </tr>
             <tr>
-
                 <td>
 
                     <input type="radio"> Mobile No.
@@ -437,16 +417,12 @@
                     <label for="yes"></label>AADHAAR
                     <input type="radio" name="citizen" id="no" style="padding-left: 10%;">
                     <label for="no" style="padding-left: 3%;"></label>EID
-
-
-
                 </td>
             </tr>
             <tr>
                 <td> <input type="checkbox"> </td>
                 <td style="width: 50%;">
                     <span class="star">*</span>12. AADHAAR number:
-
                 </td>
                 <td colspan="2">
                     <input type="text" name="citizen" id="yes" style="display: block;">
@@ -593,7 +569,6 @@
                     <div style="padding-left: 10%; display: inline;">
                         <U style="color: black;">Fees Applicable</U>
                     </div>
-
                 </td>
             </tr>
             <tr>
