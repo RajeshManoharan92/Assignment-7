@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -23,7 +22,6 @@
         }
     </style>
 </head>
-
 <body style="background-color:#fff8c5;">
     <div style="background-color:#762c00; color: white; text-align: center;">
         <span style="font-weight: bold;">Request For New Pan Card or/And Changes Or Correction in PAN Data</span> <br>
@@ -76,7 +74,6 @@
             <tr>
                 <td></td>
                 <td colspan="3">
-
                     <div style="display: inline-block;">
                         <span style="display: block;"> Last Name/Surname </span>
                         <input type="text" name="Title" id="Last Name">
@@ -137,7 +134,6 @@
             <tr>
                 <td></td>
                 <td colspan="3">
-
                     <div style="display: inline-block;">
                         <span style="display: block;"> Last Name/Surname </span>
                         <input type="text" name="Title" id="Last Name">
@@ -162,7 +158,6 @@
             <tr>
                 <td></td>
                 <td colspan="3">
-
                     <div style="display: inline-block;">
                         <span style="display: block;"> Last Name/Surname </span>
                         <input type="text" name="Title" id="Last Name">
@@ -422,8 +417,8 @@
                 </td>
                 <td colspan="2">
                     <input type="text" name="citizen" id="yes" style="display: block;">
-                    <span style="color: blue;">In case AADHAAR number is provided,</span> <br> <span
-                        style="color: blue;">then proof of AADHAAR along with
+                    <span style="color: blue;font-style: italic;">In case AADHAAR number is provided,</span> <br> <span
+                        style="color: blue;font-style: italic;">then proof of AADHAAR along with
                         supporting documents is to be submitted to NSDL</span> <br>
                 </td>
             </tr>
@@ -433,7 +428,6 @@
                     <span class="star">*</span><span style="font-weight: lighter;">Name as per AADHAAR letter</span><br>
                     <span style="font-weight: lighter;">or</span> <br>
                     <span style="font-weight: lighter;">as per the enrollment ID of Aadhaar application form</span>
-
                 </td>
                 <td colspan="2">
                     <input type="text" name="citizen" id="yes" style="padding-left: 70%;">
@@ -607,7 +601,11 @@
             <input type="radio" name="PAN" id="application1">No <br>
             <input type="radio">
             <span>DSC</span>
-            <input type="text">
+            <select id="identity" name="proofid" style="padding-left: 5%;">
+                <option>-Select-</option>
+                <option value="AADHAAR CARD">AADHAAR CARD</option>
+                <option value="DRIVING LICENSE">DRIVING LICENSE</option>
+            </select>
             <u style="color: brown;">Guidelines for DSC user</u> <br>
             <span>Upload Photo</span>
             <input type="file" style="padding-left: 35%;">
@@ -615,20 +613,20 @@
             <input type="file"><br>
             <span>Upload Document</span>
             <input type="file" style="padding-left: 33.02%;"> <br>
-            <input type="text" value="Fetch from DigitLocker"> OR <br>
+            <input type="text" value="Fetch from DigitLocker"> OR <br></br>
             <div style="display:inline-block">
                 <span>ALREADY UPLOADED PHOTO:</span>
             </div>
             <div style="display: inline; padding-left: 26%;">
                 <input type="text" style="text-align: center;">
             </div> <br>
-            <div style="display:inline-block">
+            <div style="display:inline-block;padding-top: 10px;">
                 <span>ALREADY UPLOADED SIGNATURE:</span>
             </div>
             <div style="display: inline; padding-left: 23.6%;">
                 <input type="text" style="padding-left: 0%;">
             </div> <br>
-            <div style="display:inline-block">
+            <div style="display:inline-block;padding-top: 5px;">
                 <span>ALREADY UPLOADED DOCUMENTS:</span>
             </div>
             <div style="display: inline; padding-left: 22.9%;">
@@ -640,5 +638,4 @@
         </div>
     </div>
 </body>
-
 </html>
