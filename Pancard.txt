@@ -42,7 +42,6 @@
                     <input type="radio" name="citizen" id="yes">
                     <label for="no" style="padding-left: 3%;font-weight: lighter;">No</label>
                     <input type="radio" name="citizen" id="no">
-
                 </td>
             </tr>
             <tr>
@@ -125,7 +124,6 @@
                     <input type="radio" name="citizen" id="yes">
                     <label for="no" style="padding-left: 3%;font-weight: lighter;">No</label>
                     <input type="radio" name="citizen" id="no">
-
                 </td>
             </tr>
             <tr>
@@ -380,11 +378,9 @@
             </tr>
             <tr>
                 <td>
-
                     <input type="radio"> Mobile No.
                 </td>
                 <td>
-
                     <input type="radio"> Telephone No.
                 </td>
             </tr>
